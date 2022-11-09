@@ -7,7 +7,7 @@ exports.createProduct = async (res,req,next)=> {
 
     res.status(201).json({
         success:true,
-        product,
+        product
     });
 };
 
